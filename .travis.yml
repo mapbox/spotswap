@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+- '4'
+
+env:
+  global:
+  - secure: "OhMeqUy5ZTx3VzJz+qcpE/G7G8biCokhEqqaZcNOjdi+e2zi1aJeWKiytTvEdZOzL4nc+5csmEbyRl+9AAmKEZ3fhuXWTNdSuY/h0+PzXTfJElsnoevsu0TQ+Cm9FliQXY5YoTTJv42XopCQjwJnx36qdJp0mtIMVgqj5KnFetmhBXkLcqUnUtNEc8r0eiccnyc4FMlhxsdNo/CaWyFuGyVZqQS1wXJIntIl+8X8mzOlBxJ8o+vFtb0ZvtLEGOEP7YvV2nXzGgToOZhnOJ3eBeulqsGwCO4vCf48nLPaf/1E1c48ehHiud7RLB84epTQxftKU0hpHJlFLNe45KZLaYchPQZr2TzRiu74X6kU32FmbrF1dirny+ywRzDIwCOaBKamM2pY2YCD+fhAfZXI4UYKpsMUvpy+R/PJsXUryFyQBOhBv94nO8lV33Ko77D70l5r2yXdoZtIzxcj5KUk1f8niGOTaKPlGtmTKqURcWbNhhdDYQr/4tdFJGAQYDEla7EcOAf/oIlwaVIk+O7EkSaFtzr7RxhjKKaShtRaeXwZlIfHkyXAlsYYlGGonOjSxYd7IYQnj2LaIV2qmiCsDlKFu1oGA/XisSjrpIl9ozWBOPSdtixVNDdH/N/COlohKHEY1TCoMSVgOeS2DD6eLEjw8rwq/URKcQc95L4hbQc="
+
+before_install:
+- echo "//registry.npmjs.org/:_authToken=\${NPM_TOKEN}" > .npmrc

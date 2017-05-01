@@ -1,0 +1,44 @@
+{
+  "name": "@mapbox/spotswap",
+  "version": "5.4.2",
+  "description": "Swap out spot instances for on-demand ones in dual ASG setups",
+  "author": "Mapbox (https://www.mapbox.com)",
+  "license": "ISC",
+  "bin": {
+    "spotswap-install": "bin/install.js",
+    "spotswap-poll": "bin/poll.js"
+  },
+  "scripts": {
+    "pretest": "eslint lib bin test index.js",
+    "test": "nyc tape test/*.test.js",
+    "coverage": "nyc --reporter html tape test/*.test.js && opener coverage/index.html"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.6.5",
+    "cloudfriend": "^1.3.0",
+    "d3-queue": "^3.0.1",
+    "fastlog": "^1.1.0",
+    "request": "^2.73.0"
+  },
+  "devDependencies": {
+    "@mapbox/mock-aws-sdk-js": "0.0.3",
+    "eslint": "^3.1.0",
+    "express": "4.14.0",
+    "nyc": "^7.0.0",
+    "opener": "^1.4.1",
+    "sinon": "^1.17.7",
+    "tape": "^4.6.0"
+  },
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mapbox/spotswap.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mapbox/spotswap/issues"
+  },
+  "homepage": "https://github.com/mapbox/spotswap#readme"
+}
