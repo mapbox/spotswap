@@ -202,3 +202,17 @@ The Spotswap configuration object:
 
 - AWS API permissions
   * All required permissions are fulfilled by `spotswap-cfn`.
+
+----------------------------
+
+## CONTRIBUTORS
+
+At the time this package was moved to becoming open source, contributors were:
+
+* @arunasank
+* @emilymcafee
+* @emilymdubois
+* @KaiBot3000
+* @rclark
+* @xrwang
+* @yhahn
