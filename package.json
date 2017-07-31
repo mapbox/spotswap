@@ -1,6 +1,6 @@
 {
   "name": "@mapbox/spotswap",
-  "version": "6.0.0",
+  "version": "6.0.1",
   "description": "Swap out spot instances for on-demand ones in dual ASG setups",
   "author": "Mapbox (https://www.mapbox.com)",
   "license": "ISC",
