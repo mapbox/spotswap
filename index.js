@@ -12,7 +12,6 @@ module.exports = {
 
 function envCheck() {
   [
-    'OnDemandGroup',
     'INSTANCE_ID',
     'AWS_REGION'
   ].forEach(function(key) {
