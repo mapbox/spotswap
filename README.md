@@ -28,6 +28,7 @@ Call `spotswap-install` if globally linked or call directly from npm installed b
 
 - Environment variables:
   * `TerminationOverrideFunction` (optional): An environment variable that contains the AWS ARN of a lambda function that can be invoked whenever a spot EC2 receives a termination notification, instead of directly terminating the instance. If this is not specified, any instances with `SpotTermination` tags will be terminated.
+  * `terminationTimeout` (optional): An environment variable that determines how long to wait before calling `terminateInstanceInAutoScalingGroup` on an instance in a spot AutoScaling group. If this is not specified, `terminateInstanceInAutoScalingGroup` will be called on an instance after 90 seconds.
 
 - AWS API permissions
   * The main `Role` resource in your CloudFormation template used to create, update or delete instances should contain permissions to create EC2 tags. For example:
