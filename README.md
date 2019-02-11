@@ -2,6 +2,11 @@
 
 [![Build Status](https://travis-ci.com/mapbox/spotswap.svg?token=dkVUTgL9esjwon3C6rN3&branch=master)](https://travis-ci.com/mapbox/spotswap)
 
+
+⚠️ Spotswap is deprecated and not actively maintained anymore. ⚠️
+
+---
+
 Spotswap manages spot priceouts for a spot AutoScaling Group or SpotFleet by activating backup on-demand capacity. It contains three service components, which are described below.
 
 ---------
